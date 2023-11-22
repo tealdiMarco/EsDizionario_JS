@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin:0px;
+    font-size: 14pt;
+}
+
+header{
+    font-size: 30pt;
+    color:red;
+}
+
+section{
+    display: flex;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: orangered;
+    width: 200px;
+    font-size: 15pt;
+}
